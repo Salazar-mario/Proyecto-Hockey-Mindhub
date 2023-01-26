@@ -29,18 +29,17 @@ body{
     top: 1px;
 
 }
-
 .texto2 {
     position: absolute;
     color: chocolate;
     font-size: 40px;
     text-align: center;
-    top: 500px;
+    top: 490px;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.959);
     width: 1280px;
     height : 6vh;
-    z-index: 0;
+
 }
 
 article {
@@ -62,33 +61,31 @@ article {
     bottom: 70px;
 
 }
-
-h4 {
+article h3{
     color: brown;
     position: relative;
-    left: 20px;
+    right: 100px;
+    margin: 15px;
 }
 
-p{
-    color: brown;
+article h4{
     position: relative;
-    text-indent: 50px;
-
+    bottom: 15px;
+    right: 30px;
 }
 
-span{
+article p{
     position: relative;
-    top: 30px;
-}
-
-.spacio{
-    position: relative;
-    top: 65px;
+    right: 50px;
+    bottom: 10px;
 }
 
 .contact{
-    padding: 10px;
-    margin: 10px;
-    right: 200px;
-    bottom: 10px;
+    position: relative;
+    top: 13px;
+    right: 150px;
+}
+span{
+    position: relative;
+    top: 50px;
 }
