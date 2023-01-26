@@ -67,8 +67,9 @@ article{
 
 article h3{
 position: relative;
-top: 15px;
-margin: 10px;
+top: 10px;
+margin:10px;
+right: 100px;
 color: brown;
 
 
@@ -76,14 +77,22 @@ color: brown;
 
 article h4{
     position: relative;
-    top: 5px;
-    left: 20px;
+
 }
-p{
+article p{
     text-indent: 50px;
+    position: relative;
+    right: 100px;
+    
     
 }
 
 .box1{
     position:absolute;
 }
+
+span{
+    position: relative;
+    top: 50px;
+}
+
