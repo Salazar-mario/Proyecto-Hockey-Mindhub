@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(/src/assets/img/design1_image2.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    }
+}
 
 .logo {
     position: absolute;
-    width: 1280px;
-    height: 250px;
-    top: 25px;
+    width: 120px;
+    height: 150px;
+    bottom: 700px;
     object-fit: scale-down;
 }
 
@@ -28,7 +28,7 @@ body{
     right: 80px;
     transition: all 1s ease;
     border-radius: 3rem;
-    border-style:groove;
+    border-style: groove;
 }
 
 .photo:hover {
@@ -39,26 +39,34 @@ body{
 
 nav {
     background: black;
-    border: 0 solid #7C7C7C;
-    list-style:none;
-    margin: 0;
-    padding: 15px;
+    padding: 13px;
+    overflow: hidden;
 }
 
 nav a {
     color: white;
-    padding: 185px;
+    margin: 160px;
+    padding: 20px 20px;
     text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #9eb131;
 }
 
 .texto1 {
     position: absolute;
-    bottom: 550px;
+    bottom: 750px;
     right: 250px;
     font-family: Arial;
     font-size: 60px;
     color: #1278BF;
-    text-shadow: 0px 0px 9px #508AD3;
+    text-shadow: 0px 0px 9px #02060a;
 }
 
 
@@ -70,15 +78,12 @@ nav a {
     top: 45%;
     right: 300px;
     position: absolute;
-    margin-top: -40px;
+    top: 200px;
     text-shadow: -1px -1px 0px rgb(255, 30, 0),
         3px 3px 0px rgb(255, 0, 0),
         6px 6px 0px red;
 }
 
-nav a:hover {
-    color: blue;
-}
 
 article {
     position: absolute;
@@ -90,7 +95,7 @@ article {
 article h3 {
     background: #f7f5f5;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px;
     border-left: 8px solid red;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -116,16 +121,16 @@ h2 {
     left: 250px;
 }
 
-.box1{
+.box1 {
     font-weight: bold;
     padding: 15px;
-    margin-top: 10px;
-    border-left:8px solid red;
+    top: 400px;
+    border-left: 8px solid red;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 
-.box1 p{
+.box1 p {
     background: #FF813E;
     color: white;
     font-weight: bold;
@@ -136,15 +141,26 @@ h2 {
     text-align: center;
     font-size: 15px;
 }
-.contact{
+
+.contact {
     position: relative;
     color: #bd5207;
     top: 450px;
     font-weight: bold;
     padding: 15px;
     margin-top: 10px;
-    border-left:8px solid red;
+    border-left: 8px solid red;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
 }

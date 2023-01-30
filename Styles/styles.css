@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: rgb(149, 160, 160);
 }
 
 .logo {
@@ -22,6 +22,23 @@ body {
     height: 495px;
 }
 
+nav {
+    display: block;
+    width: 60px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+nav a {
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+nav a.active {
+    text-decoration:none;
+}
 .texto1 {
     color: rgba(0, 0, 0, 0.959);
     position: absolute;
@@ -41,27 +58,13 @@ body {
     background-color: rgba(0, 0, 0, 0.959);
     width: 1280px;
     height: 6vh;
-
 }
 
 article {
     position: absolute;
     align-items: center;
-    left: 350px;
+    left: 280px;
     top: 580px;
-}
-
-.barra {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 5px;
-    margin: 10px;
-    line-height: 10px;
-    display: flex;
-    position: relative;
-    margin-bottom: 3.1rem;
-    bottom: 70px;
-
 }
 
 article h3 {

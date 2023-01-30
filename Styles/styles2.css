@@ -1,11 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aqua;
+
+body {
+    background-color: rgb(142, 166, 173);
+
 }
+
 .logo {
     position: relative;
     width: 150px;
@@ -13,34 +16,46 @@ body{
     left: 20px;
     top: 100px;
 }
+
 .photo {
     width: 1280px;
     height: 495px;
     padding-top: 100px;
 }
 
-nav{
+nav {
     position: absolute;
     bottom: 765px;
     left: 910px;
 }
-.barra{
+
+nav a {
     display: inline-block;
     text-decoration: none;
     font-size: 15px;
-    color:white;
+    color: white;
     margin: 5px;
     padding: 5px;
     padding-bottom: 25px;
     width: 100px;
     height: 30px;
     text-align: center;
-    background-color:blue;
+    background-color: blue;
 }
 
-.texto1{
-    color:rgba(0, 0, 0, 0.959);
-    position:fixed;
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.texto1 {
+    color: rgba(0, 0, 0, 0.959);
+    position: fixed;
     font-size: 70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     top: 1px;
@@ -55,51 +70,52 @@ nav{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.959);
     width: 1280px;
-    height : 6vh;
+    height: 6vh;
 
 }
 
-article{
+article {
     position: absolute;
     left: 300px;
     top: 600px;
 }
 
-article h3{
-position: relative;
-top: 10px;
-margin:10px;
-right: 100px;
-color: brown;
+article h3 {
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    right: 100px;
+    color: brown;
 
 
 }
 
-article h4{
+article h4 {
     position: relative;
     right: 50px;
 
 }
-article p{
+
+article p {
     text-indent: 50px;
     position: relative;
     right: 100px;
-    
-    
+
+
 }
 
-.box1{
-    position:absolute;
+.box1 {
+    position: absolute;
 }
 
-span{
+span {
     position: relative;
     top: 50px;
 }
-.contact{
-position: absolute;
-padding: 10px;
-left: 200px;
-top: 610px;    
-}
 
+.contact {
+    position: absolute;
+    padding: 10px;
+    left: 200px;
+    top: 610px;
+}
