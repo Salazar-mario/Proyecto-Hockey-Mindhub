@@ -202,3 +202,25 @@ footer {
     color: white;
     text-align: center;
 }
+
+
+table{
+    background-color: #612d08;
+    margin: 150px auto;
+    width: 600px;
+}
+
+
+tr{
+    background-color: #080808;
+}
+th{
+    background-color: #f5ede8;
+}
+td{
+    background-color: #95a9b8;
+}
+
+.espacio{
+    padding: 20px;
+}
