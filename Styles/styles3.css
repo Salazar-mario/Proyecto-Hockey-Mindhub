@@ -56,6 +56,7 @@ nav a.active {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
     height: 100%;
     height: 500px;
 
@@ -66,7 +67,7 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    height: 500px;
+    height: 100px;
 
 
 }
@@ -90,6 +91,13 @@ article {
     border-radius: 50%;
     box-shadow: 0px 0px 15px 15px #ec731e;
     transform: rotate(360deg);
+}
+.container1{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    
 }
 
 
@@ -123,7 +131,7 @@ article {
 }
 
 .box1 {
-    height: 550px;
+    height: 100px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -204,8 +212,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 300px;
-
+    height: 0px;
 }
 
 footer {
@@ -223,7 +230,6 @@ table {
     height: 95%;
     padding: 20px;
 }
-
 
 .texto-position {
     color: rgb(228, 226, 235);
@@ -339,7 +345,7 @@ dt {
     font-size: 20px;
     padding: 10px;
     width: 300px;
-    background-color: white;
+    line-height:20px; 
 
 }
 
@@ -347,17 +353,34 @@ dd {
     color: red;
     padding: 10px;
     font-size: 20px;
-    background-color: black;
+    background-color: white;
 }
 
 li {
     color: red;
     padding: 10px;
     background-color: black;
+}
 table{
-    background-color: #612d08;
-    margin: 150px auto;
-    width: 600px;
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+}
+.texto-position {
+    color: rgb(228, 226, 235);
+    font-size: 25px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+}
+
+.subtitulo {
+    color: rgb(253, 249, 249);
+    font-size: 30px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+    text-decoration: underline;
 }
 
 .subtitulo {
@@ -376,6 +399,13 @@ table{
 }
 
 tr {
+
+    background-color: white;
+}
+
+th {
+    color: white;
+    background-color: black;
     background-color: #080808;
 }
 
@@ -396,7 +426,21 @@ td {
 .estilo-fecha {
     font-size: 20px;
 }
-
+.colour{
+    background-color: #1278BF;
+}
+.colour2{
+    background-color: #b112bf;
+}
+.colour3{
+    background-color: #2ebe59;
+}
+.colour4{
+    background-color: #db3d71;
+}
+.colour5{
+    background-color: #e6962d;
+}
 .information {
     background: #FF813E;
     border: 2px solid #B34F19;
@@ -463,6 +507,7 @@ dt {
     font-size: 20px;
     padding: 10px;
     width: 300px;
+    line-height:20px; 
     background-color: white;
 
 }
@@ -471,12 +516,14 @@ dd {
     color: red;
     padding: 10px;
     font-size: 20px;
+    background-color: white;
     background-color: black;
 }
 
 li {
     color: red;
     padding: 10px;
+    background-color: white;
+    list-style-position: inside;
     background-color: black;
-
 }
