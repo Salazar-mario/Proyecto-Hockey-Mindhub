@@ -215,13 +215,6 @@ footer {
     text-align: center;
 }
 
-table {
-    width: 100%;
-    height: 95%;
-    padding: 20px;
-}
-
-
 .texto-position {
     color: rgb(228, 226, 235);
     font-size: 25px;
@@ -351,10 +344,18 @@ li {
     color: red;
     padding: 10px;
     background-color: black;
+}
 table{
-    background-color: #612d08;
-    margin: 150px auto;
-    width: 600px;
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+}
+.texto-position {
+    color: rgb(228, 226, 235);
+    font-size: 25px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
 }
 
 .subtitulo {
@@ -366,18 +367,14 @@ table{
     text-decoration: underline;
 }
 
-.position {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 tr {
-    background-color: #080808;
+    background-color: white;
 }
 
 th {
-    background-color: #f5ede8;
+    color: white;
+    background-color: black;
     font-size: 25px;
 }
 
@@ -392,6 +389,21 @@ td {
 
 .estilo-fecha {
     font-size: 20px;
+}
+.colour{
+    background-color: #1278BF;
+}
+.colour2{
+    background-color: #b112bf;
+}
+.colour3{
+    background-color: #2ebe59;
+}
+.colour4{
+    background-color: #db3d71;
+}
+.colour5{
+    background-color: #e6962d;
 }
 
 .information {
