@@ -56,6 +56,10 @@ nav a.active {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    height: 100%;
+    height: 500px;
+
 }
 
 article {
@@ -66,6 +70,12 @@ article {
     height: 100px;
 
 
+}
+.container1{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .photo {
@@ -213,6 +223,12 @@ footer {
     height: 40px;
     color: white;
     text-align: center;
+}
+
+table {
+    width: 100%;
+    height: 95%;
+    padding: 20px;
 }
 
 .texto-position {
@@ -367,14 +383,34 @@ table{
     text-decoration: underline;
 }
 
+.subtitulo {
+    color: rgb(253, 249, 249);
+    font-size: 30px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+    text-decoration: underline;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 tr {
+
     background-color: white;
 }
 
 th {
     color: white;
     background-color: black;
+    background-color: #080808;
+}
+
+th {
+    background-color: #f5ede8;
     font-size: 25px;
 }
 
@@ -405,7 +441,6 @@ td {
 .colour5{
     background-color: #e6962d;
 }
-
 .information {
     background: #FF813E;
     border: 2px solid #B34F19;
@@ -473,6 +508,7 @@ dt {
     padding: 10px;
     width: 300px;
     line-height:20px; 
+    background-color: white;
 
 }
 
@@ -481,6 +517,7 @@ dd {
     padding: 10px;
     font-size: 20px;
     background-color: white;
+    background-color: black;
 }
 
 li {
@@ -488,4 +525,5 @@ li {
     padding: 10px;
     background-color: white;
     list-style-position: inside;
+    background-color: black;
 }
