@@ -5,12 +5,8 @@
 }
 
 html {
-    width: 100%;
-    height: 100%;
     scroll-behavior: smooth;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
 }
 
 body {
@@ -18,6 +14,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
@@ -52,21 +52,21 @@ nav a.active {
     object-fit: scale-down;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 
 article {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    height: 100px;
-
-
+    height: 252px;
 }
+
+article .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 
 .photo {
     display: flex;
@@ -82,20 +82,20 @@ article {
     box-shadow: 0px 0px 15px 15px #ec731e;
     transform: rotate(360deg);
 }
-.container1{
+
+.container1 {
     width: 92%;
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
-    
+    align-items: flex-end;
+
 }
 
 
-.texto1 {
+.text1 {
     display: flex;
     height: 100%;
     width: 85%;
-    display: flex;
     flex-direction: column;
     align-items: flex-end;
     font-family: Arial;
@@ -106,7 +106,7 @@ article {
 }
 
 
-.texto2 {
+.text2 {
     text-align: center;
     color: white;
     font-size: 40px;
@@ -207,33 +207,13 @@ aside {
 
 footer {
     background-color: black;
-    position: absolute;
-    bottom: 0px;
     width: 100%;
     height: 40px;
     color: white;
     text-align: center;
 }
 
-.texto-position {
-    color: rgb(228, 226, 235);
-    font-size: 25px;
-    font-size: 20px;
-    text-shadow: -1px -1px 0px rgb(12, 12, 12),
-        3px 3px 0px rgb(0, 0, 0),
-        3px 3px 0px rgb(15, 15, 15);
-    padding: 30px;
-}
 
-.subtitulo {
-    color: rgb(253, 249, 249);
-    font-size: 30px;
-    text-shadow: -1px -1px 0px rgb(12, 12, 12),
-        3px 3px 0px rgb(0, 0, 0),
-        3px 3px 0px rgb(15, 15, 15);
-    padding: 20px;
-    text-decoration: underline;
-}
 
 .position {
     display: flex;
@@ -241,66 +221,7 @@ footer {
     align-items: center;
 }
 
-tr {
-    background-color: #080808;
-}
 
-th {
-    background-color: #f5ede8;
-    font-size: 25px;
-}
-
-td {
-    background-color: #ca9023;
-    text-align: center;
-}
-
-.espacio {
-    padding: 20px;
-}
-
-.estilo-fecha {
-    font-size: 20px;
-}
-
-.information {
-    background: #FF813E;
-    border: 2px solid #B34F19;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-}
-
-.information p {
-    color: rgb(218, 25, 25);
-    font-size: 25px;
-    width: 100%;
-}
-
-.information span {
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.contact1 {
-    background: #FF813E;
-    border: 2px solid #B34F19;
-    font-weight: bold;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact1 p {
-    color: rgb(218, 25, 25);
-    font-size: 20px;
-}
-
-.contact1 span {
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
 
 section {
     display: flex;
@@ -329,7 +250,7 @@ dt {
     font-size: 20px;
     padding: 10px;
     width: 300px;
-    line-height:20px; 
+    line-height: 20px;
 
 }
 
@@ -345,13 +266,16 @@ li {
     padding: 10px;
     background-color: black;
 }
-table{
+
+table {
     width: 100%;
-    padding: 4px;
+    height: 219px;
     background-color: white;
 }
+
 .texto-position {
     color: rgb(228, 226, 235);
+    width: 100%;
     font-size: 25px;
     text-shadow: -1px -1px 0px rgb(12, 12, 12),
         3px 3px 0px rgb(0, 0, 0),
@@ -360,6 +284,7 @@ table{
 
 .subtitulo {
     color: rgb(253, 249, 249);
+    width:100%;
     font-size: 30px;
     text-shadow: -1px -1px 0px rgb(12, 12, 12),
         3px 3px 0px rgb(0, 0, 0),
@@ -390,19 +315,24 @@ td {
 .estilo-fecha {
     font-size: 20px;
 }
-.colour{
+
+.colour {
     background-color: #1278BF;
 }
-.colour2{
+
+.colour2 {
     background-color: #b112bf;
 }
-.colour3{
+
+.colour3 {
     background-color: #2ebe59;
 }
-.colour4{
+
+.colour4 {
     background-color: #db3d71;
 }
-.colour5{
+
+.colour5 {
     background-color: #e6962d;
 }
 
@@ -430,8 +360,15 @@ td {
     border: 2px solid #B34F19;
     font-weight: bold;
     width: 100%;
+    height: 198px;
     display: flex;
     flex-direction: column;
+}
+
+.ruler{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .contact1 p {
@@ -454,9 +391,9 @@ section {
 
 section h2 {
     font-size: 35px;
-    background-color: #B34F19;
+    background-color: white;
     display: flex;
-    width: 85%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -464,15 +401,18 @@ section h2 {
 
 section p {
     color: black;
-    background-color: #1278BF;
+    background-color: white;
+    width: 40%;
     font-size: 20px;
 }
 
 dt {
+    color: white;
     font-size: 20px;
     padding: 10px;
     width: 300px;
-    line-height:20px; 
+    line-height: 20px;
+    background-color: #080808;
 
 }
 
@@ -481,6 +421,7 @@ dd {
     padding: 10px;
     font-size: 20px;
     background-color: white;
+    text-indent: 35px;
 }
 
 li {
@@ -488,4 +429,17 @@ li {
     padding: 10px;
     background-color: white;
     list-style-position: inside;
+}
+
+li span {
+    color: black;
+    font-size: 20px;
+}
+
+ul.circulo {
+    list-style-type: circle;
+}
+
+ol.latin {
+    list-style-type: lower-latin;
 }
