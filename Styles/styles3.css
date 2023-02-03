@@ -52,6 +52,15 @@ nav a.active {
     object-fit: scale-down;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: 100%;
+    height: 500px;
+
+}
 
 article {
     display: flex;
@@ -66,7 +75,12 @@ article .container {
     flex-direction: column;
     justify-content: flex-end;
 }
-
+.container1{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .photo {
     display: flex;
@@ -213,7 +227,31 @@ footer {
     text-align: center;
 }
 
+table {
+    width: 100%;
+    height: 95%;
+    padding: 20px;
+}
 
+.texto-position {
+    color: rgb(228, 226, 235);
+    font-size: 25px;
+    font-size: 20px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+    padding: 30px;
+}
+
+.subtitulo {
+    color: rgb(253, 249, 249);
+    font-size: 30px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+    padding: 20px;
+    text-decoration: underline;
+}
 
 .position {
     display: flex;
@@ -292,14 +330,43 @@ table {
     text-decoration: underline;
 }
 
+.subtitulo {
+    color: rgb(253, 249, 249);
+    font-size: 30px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+    text-decoration: underline;
+}
+
+.subtitulo {
+    color: rgb(253, 249, 249);
+    font-size: 30px;
+    text-shadow: -1px -1px 0px rgb(12, 12, 12),
+        3px 3px 0px rgb(0, 0, 0),
+        3px 3px 0px rgb(15, 15, 15);
+    text-decoration: underline;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 tr {
+
     background-color: white;
 }
 
 th {
     color: white;
     background-color: black;
+    background-color: #080808;
+}
+
+th {
+    background-color: #f5ede8;
     font-size: 25px;
 }
 
@@ -335,7 +402,6 @@ td {
 .colour5 {
     background-color: #e6962d;
 }
-
 .information {
     background: #FF813E;
     border: 2px solid #B34F19;
@@ -411,8 +477,8 @@ dt {
     font-size: 20px;
     padding: 10px;
     width: 300px;
-    line-height: 20px;
-    background-color: #080808;
+    line-height:20px; 
+    background-color: white;
 
 }
 
@@ -421,7 +487,7 @@ dd {
     padding: 10px;
     font-size: 20px;
     background-color: white;
-    text-indent: 35px;
+    background-color: black;
 }
 
 li {
@@ -429,17 +495,5 @@ li {
     padding: 10px;
     background-color: white;
     list-style-position: inside;
-}
-
-li span {
-    color: black;
-    font-size: 20px;
-}
-
-ul.circulo {
-    list-style-type: circle;
-}
-
-ol.latin {
-    list-style-type: lower-latin;
+    background-color: black;
 }
