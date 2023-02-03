@@ -6,34 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./Css/styles2.css">
+    <link rel="stylesheet" href="./Css/styles3.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="./src/assets/img/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <main>
         <header>
-            <figure>
-                <img src="./src/assets/img/design1_image1.jpg" alt="hockey" class="photo">
-            </figure>
-            <figure>
-                <img src="./src/assets/img/LogoMightyducks-01.png" alt="mi_logo" id="logo" class="logo">
-            </figure>
-            <h1 class="texto1">Mighty Ducks Hockey League</h1>
             <nav>
-                <a class="barra" href="#">Home</a>
-                <a class="barra" href="./about.html">About</a>
-                <a class="barra" href="./contact.html">Contact</a>
+                <a class="active" href="#">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./gameinfo.html">Game Information</a>
+                <a href="./rules.html">Rules</a>
             </nav>
+            <h1 class="text1">Mighty Ducks Hockey League</h1>
         </header>
-        <h2 class="texto2">Upcoming Events</h2>
-        <article>
+        <h2 class="text2">Upcoming Events</h2>
+        <figure>
+            <img src="./src/assets/img/LogoMightyducks-01.png" alt="mi_logo" id="logo" class="logo">
+        </figure>
+        <figure class="container1">
+            <img src="./src/assets/img/design1_image1.jpg" alt="hockey" class="photo">
+        </figure>  
+        <article class="container">
             <h3>August 4</h3>
             <h4>MDSL Fundraiser</h4>
             <h3>August 16</h3>
             <h4>Season Kick-off: Meet the Teams</h4>
             <h3>September 1</h3>
             <h4>First Game of the Season (Check Game Schedule for details)</h4>
-        </article>
+        </article>      
+        <footer>
+            <p>Agustin Salazar | © FE05 Mindhub 2023</p>
+            <p>Buenos Aires, Argentina</p>
+        </footer> 
     </main>
 </body>
+
 </html>
