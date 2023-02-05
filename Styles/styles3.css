@@ -6,6 +6,8 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -17,7 +19,6 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 nav {
@@ -284,7 +285,7 @@ table {
 
 .subtitulo {
     color: rgb(253, 249, 249);
-    width:100%;
+    width: 100%;
     font-size: 30px;
     text-shadow: -1px -1px 0px rgb(12, 12, 12),
         3px 3px 0px rgb(0, 0, 0),
@@ -365,7 +366,7 @@ td {
     flex-direction: column;
 }
 
-.ruler{
+.ruler {
     display: flex;
     justify-content: space-between;
 
@@ -442,4 +443,23 @@ ul.circulo {
 
 ol.latin {
     list-style-type: lower-latin;
+}
+
+/*Formulario*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+form {
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
 }
