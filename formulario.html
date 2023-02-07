@@ -16,10 +16,10 @@
             <nav>
                 <a href="./index.html">Home</a>
                 <a href="./about.html">About</a>
-                <a href="./contact.html">Contact</a>
-                <a href="./gameinfo.html">Game Information</a>
                 <a href="./rules.html">Rules</a>
-                <a class="active" href="#">Formulario</a>
+                <a href="./game_info.html">Game Information</a>
+                <a class="active" href="#">Registration</a>
+                <a href="./contact.html">Contact</a>
             </nav>
             <h1 class="text1">Mighty Ducks Hockey League</h1>
             <figure>
@@ -28,31 +28,97 @@
             <h2 class="text2">Formulario de Registro</h2>
         </header>
         <div class="formulario">
-        <form class="formu-position" action="#" target="" method="get" name="formDatosPersonales">
-
-            <label for="nombre">Player's First Name</label>
-            <input type="text" name="nombre" id="nombre" placeholder="First Name"/>
-
-            <label for="apellidos">Last Name</label>
-            <input type="text" name="apellidos" id="apellidos" placeholder="Last Name"/>
-
-            <label for="Street Address">Street Address</label>
-            <input type="text" name="Street Address" id="Street Address" placeholder="Street Address" required />
-
-            <label for="asunto">City</label>
-            <input type="text" name="City" id="City" placeholder="City"/>
-
-            <label for="asunto">Zip Code</label>
-            <input type="text" name="Code" id="Code" placeholder="Code"/>
-
-            <label for="start">Birth Date(mm/dd/yyyy)</label>
-            <input type="date" id="start" name="trip-start" value="1900-07-22" min="2018-01-01" max="2023-12-31">
-
-            <label for="Gender">Gender</label>
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
-        </form>
-    </div>
+            <form action="show_data.html">
+                <h3>Personal Information</h3>
+                <label>Player's First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <label>Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+                <label>Street Adress:</label>
+                <input type="text" id="adress" name="adress">
+                <label>City:</label>
+                <input type="text" id="city" name="city">
+                <label>Zip Code:</label>
+                <input type="text" id="zip" name="zip">
+                <label>Birth Date:</label>
+                <input type="date" id="birth" name="birth">
+                <label>Gender:</label>
+                <input type="radio" id="male" value="male" name="gender">
+                <label>Male</label>
+                <input type="radio" id="female" value="female" name="gender">
+                <label>Female</label>
+                <label id="grade">Grade:</label>
+                <input type="radio" id="preSchool" value="preSchool" name="grade">
+                <label>Pre-School</label>
+                <input type="radio" id="1st" value="1st" name="grade">
+                <label>1st</label>
+                <input type="radio" id="2nd" value="2nd" name="grade">
+                <label>2nd</label>
+                <input type="radio" id="3rd" value="3rd" name="grade">
+                <label>3rd</label>
+                <input type="radio" id="4th" value="4th" name="grade">
+                <label>4th</label>
+                <input type="radio" id="5th" value="5th" name="grade">
+                <label>5th</label>
+                <h3>Which elementary school do you live near?</h3>
+                <p>Closest School:</p>
+                <select name="school">
+                    <option>select school</option>
+                    <option value="katzenmaierSchool">AJ Katzenmaier</option>
+                    <option value="marjorieSchool">Marjorie P Hart</option>
+                    <option value="greenbaySchool">Greenbay</option>
+                    <option value="northSchool">North Elementary</option>
+                    <option value="howardSchool">Howard A Yeager</option>
+                    <option value="southSchool">South Elementary</option>
+                </select>
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+                <input type="checkbox" id="forward" value="forward" name="position">
+                <label id="position">Forward</label>
+                <input type="checkbox" id="midfield" value="midfield" name="position">
+                <label>Midfield</label>
+                <input type="checkbox" id="defense" value="defense" name="position">
+                <label>Defense</label>
+                <input type="checkbox" id="goalkeeper" value="goalkeeper" name="position">
+                <label>Goalkeeper</label>
+                <h3>Uniform Size</h3>
+                <input type="radio" id="fouthSmall" value="fSmall" name="size">
+                <label>Fouth Small</label>
+                <input type="radio" id="medium" value="medium" name="size">
+                <label>Medium</label>
+                <input type="radio" id="yMedium" value="yMedium" name="size">
+                <label>Youth Medium</label>
+                <input type="radio" id="large" value="large" name="size">
+                <label>Large</label>
+                <input type="radio" id="yLarge" value="yLarge" name="size">
+                <label>Youth Large</label>
+                <input type="radio" id="xLarge" value="xLarge" name="size">
+                <label>Extra Large</label>
+                <input type="radio" id="small" value="small" name="size">
+                <label>Small</label>
+                <h3>Permition to play</h3>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                    injury associated with hockey and in consideration for the "League" accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees and associated personnel and volunteers,including the facilities used for practices and
+                    games, against any claim by or on behalf of the registrant as a result of the registrant's
+                    participation in the programand/orbeing transported to or from MDHL sponsored activities,which
+                    transportation.</p>
+                <p>By entering your name below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    <label for="Parent">Parent/GuardianSignature:</label>
+                    <input type="text" id="Parent" name="Parent/Guardian">
+                    <label>Date:</label>
+                    <input type="text" id="date" name="date">
+                    <h3>Accept and Submit:</h3>
+                <input type="submit" value="SEND!">
+                
+            </form>
+            </div>
+            <footer>
+                <p>Agustin Salazar | © FE05 Mindhub 2023</p>
+                <p>Buenos Aires, Argentina</p>
+            </footer>
     </main>
 </body>
 
