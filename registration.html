@@ -26,39 +26,45 @@
             <figure>
                 <img src="./src/assets/img/LogoMightyducks-01.png" alt="mi_logo" id="logo" class="logo">
             </figure>
+            <div class="boxphoto">
+                <img  src="./src/assets/img/hockey1.jpg" alt="photo1">
+                <img src="./src/assets/img/hockey2.jpg" alt="photo2">
+                <img src="./src/assets/img/hockey3.jpg" alt="photo3">
+                <img src="./src/assets/img/design1_image2.jpg" alt="photo4">
+            </div>
         </header>
-        <h3>Registration Form</h3>
+        <h2 class="text2">Registration Form</h2>
         <div class="formulario">
             <form action="show_data.html">
                 <div>
                     <fieldset>
                         <label>Player's First Name:</label>
-                        <input type="text" id="firstName" name="firstName">
+                        <input type="text" id="firstName" name="firstName" required>
                         <label>Last Name:</label>
-                        <input type="text" id="lastName" name="lastName">
+                        <input type="text" id="lastName" name="lastName" required>
                     </fieldset>
                     <fieldset>
                         <label>Street Adress:</label>
-                        <input type="text" id="adress" name="adress">
+                        <input type="text" id="adress" name="adress" required>
                     </fieldset>
                     <fieldset>
                         <label>City:</label>
-                        <input type="text" id="city" name="city">
+                        <input type="text" id="city" name="city" required>
                         <label>Zip Code:</label>
-                        <input type="text" id="zip" name="zip">
+                        <input type="text" id="zip" name="zip" required>
                     </fieldset>
                     <fieldset>
                         <label>Birth Date:</label>
-                        <input type="date" id="birth" name="birth">
+                        <input type="date" id="birth" name="birth" required>
                         <label>Gender:</label>
-                        <input type="radio" id="male" value="male" name="gender">
+                        <input type="radio" id="male" value="male" name="gender" required>
                         <label>Male</label>
-                        <input type="radio" id="female" value="female" name="gender">
+                        <input type="radio" id="female" value="female" name="gender" required>
                         <label>Female</label>
                     </fieldset>
                     <fieldset>
                         <label id="grade">Grade:</label>
-                        <input type="radio" id="preSchool" value="preSchool" name="grade">
+                        <input type="radio" id="preSchool" value="preSchool" name="grade" required>
                         <label>Pre-School</label>
                         <input type="radio" id="1st" value="1st" name="grade">
                         <label>1st</label>
@@ -72,29 +78,25 @@
                         <label>5th</label>
                     </fieldset>
                 </div>
-
                 <h2>Which elementary school do you live near?</h2>
-
                 <p>Closest School:</p>
-
                 <div class="school">
                     <fieldset>
-                        <input type="radio" id="AJ Katzenmaier" value="AJ" name="size">
+                        <input type="radio" id="AJ Katzenmaier" value="AJ" name="size" required>
                         <label>AJ Katzenmaier</label>
-                        <input type="radio" id="Greenbay" value="Greenbay" name="size">
+                        <input type="radio" id="Greenbay" value="Greenbay" name="size" required>
                         <label>Greenbay</label>
-                        <input type="radio" id="Howard A Yeager" value="Howard" name="size">
+                        <input type="radio" id="Howard A Yeager" value="Howard" name="size" required>
                         <label>Howard A Yeager</label>
-                        <input type="radio" id="Marjorie P Hart" value="Marjorie" name="size">
+                        <input type="radio" id="Marjorie P Hart" value="Marjorie" name="size" required>
                         <label>Marjorie P Hart</label>
-                        <input type="radio" id="North Elementary" value="North" name="size">
+                        <input type="radio" id="North Elementary" value="North" name="size" required>
                         <label>North elementary</label>
-                        <input type="radio" id="South Elementary" value="South" name="size">
+                        <input type="radio" id="South Elementary" value="South" name="size" required>
                         <label>South Elementary</label>
                     </fieldset>
                 </div>
                 <div>
-
                     <h2>What position(s) do you normally play? (check all that apply)</h2>
                     <fieldset>
                         <input type="checkbox" id="forward" value="forward" name="position">
@@ -110,24 +112,23 @@
                 <h2>Uniform Size</h2>
                 <div>
                     <fieldset>
-                        <input type="radio" id="fouthSmall" value="fSmall" name="size">
+                        <input type="radio" id="fouthSmall" value="fSmall" name="size" required>
                         <label>Fouth Small</label>
-                        <input type="radio" id="medium" value="medium" name="size">
+                        <input type="radio" id="medium" value="medium" name="size" required>
                         <label>Medium</label>
-                        <input type="radio" id="yMedium" value="yMedium" name="size">
+                        <input type="radio" id="yMedium" value="yMedium" name="size" required>
                         <label>Youth Medium</label>
-                        <input type="radio" id="large" value="large" name="size">
+                        <input type="radio" id="large" value="large" name="size" required>
                         <label>Large</label>
-                        <input type="radio" id="yLarge" value="yLarge" name="size">
+                        <input type="radio" id="yLarge" value="yLarge" name="size" required>
                         <label>Youth Large</label>
-                        <input type="radio" id="xLarge" value="xLarge" name="size">
+                        <input type="radio" id="xLarge" value="xLarge" name="size" required>
                         <label>Extra Large</label>
-                        <input type="radio" id="small" value="small" name="size">
+                        <input type="radio" id="small" value="small" name="size" required>
                         <label>Small</label>
                     </fieldset>
                 </div>
                 <h2>Permition to play</h2>
-
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
                     the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
                     injury associated with hockey and in consideration for the "League" accepting the registrant for its
@@ -141,17 +142,17 @@
                 <fieldset>
                     <label for="Parent">Parent/GuardianSignature:</label>
                     <input type="text" id="Parent" name="Parent/Guardian">
-                    <label>Date:</label>
-                    <input type="date" id="birth" name="birth">
                 </fieldset>
-                <h2>Accept and Submit:</h2>
-
-                <input type="submit" value="accept and send">
+                <fieldset>
+                    <label>Date:</label>
+                    <input type="date" id="birth" name="birth" required>
+                    <h2>Accept and Submit:</h2>
+                <input type="submit" value="Send">
+            </fieldset>
             </form>
         </div>
         <footer>
             <p>Agustin Salazar | © FE05 Mindhub 2023</p>
-            <p>Buenos Aires, Argentina</p>
         </footer>
     </main>
 </body>
