@@ -304,8 +304,9 @@ td {
 .mapa {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    width: 350px;
+    height: 350px;
+    margin: auto;
 }
 
 .linkMap {
